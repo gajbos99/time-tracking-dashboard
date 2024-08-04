@@ -145,6 +145,10 @@ body {
   left: 70%;
 }
 
+.data {
+  max-width: 32.7rem;
+}
+
 .dots {
   cursor: pointer;
 }
@@ -221,6 +225,26 @@ body {
   }
   .report-info {
     flex-direction: column;
-    height: 354px;
+    height: 323px;
+  }
+  .category-event {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-bottom: 2.5rem;
+  }
+  .selected-time {
+    display: flex;
+    flex-direction: column;
+  }
+  .data {
+    max-width: 25.5rem;
+  }
+  .time {
+    display: flex;
+    flex-direction: column;
+  }
+  .time p {
+    padding-left: 20px;
   }
 }/*# sourceMappingURL=style.css.map */
